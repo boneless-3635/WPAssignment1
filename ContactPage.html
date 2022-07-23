@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-erequiredformquiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="CSS.css" type="text/css">
@@ -28,91 +28,91 @@
             <h1>Contact Us</h1>
             <form>
 
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label for="purpose">Contact Purpose: </label>
                     </div>
-                    <div class="form-field">
-                        <select id="purpose" name="purpose">
+                    <div class="FormField">
+                        <select required id="purpose" name="purpose">
                             <option value="sell">I want to sell books</option>
                             <option value="buy">I want to buy books</option>
                         </select>
                     </div>
                 </div>
             
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label for="name">Your name: </label>
                     </div>
-                    <div class="form-field">
+                    <div class="FormField">
                         <input required type="text" id="name" name="name">
                     </div>
                 </div>
             
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label for="email">Your email: </label>
                     </div>
-                    <div class="form-field">
+                    <div class="FormField">
                         <input required type="email" id="email" name="email">
                     </div>
                 </div>
             
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label for="phone">Your phone: </label>
                     </div>
-                    <div class="form-field">
+                    <div class="FormField">
                         <input required type="tel" id="phone" name="phone" pattern="[0-9]{9,13}">
                     </div>
                 </div>
             
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label>How can we contact you: </label>
                     </div>
-                    <div class="form-field">
+                    <div class="FormField">
                         <ul>
                             <li>
-                                <input type="radio" id="contact_email" name="contact_method" value="email">
+                                <input required type="radio" id="contact_email" name="contact_method" value="email">
                                 <label for="contact_email">Email</label>
                             </li>
                             <li>
-                                <input type="radio" id="contact_phone" name="contact_method" value="phone">
+                                <input required type="radio" id="contact_phone" name="contact_method" value="phone">
                                 <label for="contact_phone">Phone</label>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label>Do you want to receive our weekly newsletter? </label>
                     </div>
-                    <div class="form-field">
+                    <div class="FormField">
                         <ol>
                             <li>
-                                <input type="radio" id="yes" name="news" value="yes" checked="checked">
+                                <input required type="radio" id="yes" name="news" value="yes" checked="checked">
                                 <label for="yes">Yes</label>
                             </li>
                             <li>
-                                <input type="radio" id="no" name="news" value="no">
+                                <input required type="radio" id="no" name="news" value="no">
                                 <label for="no">No</label>
                             </li>
                         </ol>
                     </div>
                 </div>
 
-                <div class="form-row">
-                    <div class="form-label">
+                <div class="FormRow">
+                    <div class="FormLabel">
                         <label for="note">Note: </label>
                     </div>
-                    <div class="form-field">
+                    <div class="FormField">
                         <textarea cols="70" rows="5" required id="note" name="note"></textarea>
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="FormRow">
                     <input type="reset" value="Clear">
                     <input type="submit" value="Send">
                 </div>
