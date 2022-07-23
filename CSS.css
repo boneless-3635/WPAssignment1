@@ -9,7 +9,7 @@ header, footer {
     margin-right: auto;
     padding: 20px 20px;
     display: flex;
-    height: 100px;
+    height: 160px;
 }
 
 #bottom {
@@ -20,8 +20,8 @@ header, footer {
 
 #limiter {
     position:relative;
-    height: 140px;
-    width: calc(80vw - (100vw - 100%));
+    height: 200px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -44,7 +44,6 @@ nav ul li a{
     color: #E7F6F2;
     font-weight: 600;
     font-size: 30px;
-
 }
 
 nav ul li a:hover{
@@ -63,6 +62,8 @@ nav ul li a:hover{
     nav li {
     display: inline-block;
     }
+
+    
 }
 
 h1 {
@@ -98,16 +99,31 @@ body {
     margin-bottom: 0;
 }
 
-.Cat {
-    padding: 0 5vw;
+.BookSel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.BookSel {
+.BookSel img {
+    display: block;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+}
+
+.BookSel p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #2C3333;
+}
+
+.BookLar {
     display: flex;
     width: calc(100vw - (100vw - 100%));
     flex-flow: row;
     margin: auto;
-
 }
 
 .Book {
@@ -115,16 +131,13 @@ body {
     padding: 5vh 3vw;
 }
 
-.Book img {
-    width: 100%;
+.Cat {
+    padding: 0 5vw;
     
 }
 
-.Book p {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 500;
-    color: #2C3333;
+.Book img {
+    width: 100%;
 }
 
 .SubImage {
@@ -198,6 +211,8 @@ ul.breadcrumb li a:hover {
 form {
     margin: 3vw;
     padding-left: 2vw;
+
+
 }
 
 .FormLabel {
@@ -226,3 +241,4 @@ select {
 textarea {
     font-size: 22px;
 }
+
